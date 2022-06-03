@@ -74,6 +74,7 @@ header .company-logo .secondary-color {
   background-color: var(--dark-bg-color);
 }
 .hero-title {
+  width: 700px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -83,13 +84,15 @@ header .company-logo .secondary-color {
   color: #ffffff;
 }
 .hero-btn {
+  width: 200px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: center;
   text-align: center;
+  border: none;
+  border-radius: 4px;
   letter-spacing: 0.06em;
   color: var(--btn-text-accent-color);
   cursor: pointer;
