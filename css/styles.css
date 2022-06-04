@@ -84,7 +84,7 @@ header .company-logo .secondary-color {
   color: #ffffff;
 }
 .hero-btn {
-  width: 200px;
+  min-width: 200px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
