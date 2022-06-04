@@ -34,7 +34,28 @@ body {
 .link {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 /* ---------------- HEADER ---------------- */
+.header {
+  padding: 24px 0px;
+  border: 1px #ececec;
+  border-bottom-style: solid;
+}
 .company-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -69,12 +90,17 @@ header .company-logo .secondary-color {
 .link.current {
   color: var(--accent-color);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* ---------------- HERO ---------------- */
 .hero {
+  padding: 200px 0px;
   background-color: var(--dark-bg-color);
 }
 .hero-title {
-  width: 700px;
+  max-width: 700px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -82,6 +108,7 @@ header .company-logo .secondary-color {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 .hero-btn {
   min-width: 200px;
@@ -97,6 +124,7 @@ header .company-logo .secondary-color {
   color: var(--btn-text-accent-color);
   cursor: pointer;
   background-color: var(--accent-color);
+  display: block;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -110,6 +138,7 @@ header .company-logo .secondary-color {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color);
+  margin-bottom: 10px;
 }
 .features-text {
   font-weight: 400;
@@ -125,6 +154,7 @@ header .company-logo .secondary-color {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+  margin-bottom: 50px;
 }
 /* ---------------- TEAM ---------------- */
 .team {
@@ -138,6 +168,9 @@ header .company-logo .secondary-color {
   letter-spacing: 0.03em;
   color: var(--header-color);
 }
+.team-container {
+  padding: 30px 0px;
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -145,6 +178,7 @@ header .company-logo .secondary-color {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+  margin-bottom: 10px;
 }
 .team-text {
   font-size: 16px;
@@ -153,11 +187,13 @@ header .company-logo .secondary-color {
   letter-spacing: 0.03em;
 }
 .team-item {
+  max-width: 270px;
   background-color: var(--body-bg-color);
 }
 /* ---------------- FOOTER ---------------- */
 .footer {
   background-color: var(--dark-bg-color);
+  padding: 50px 0px;
 }
 .company-logo .secondary-color {
   color: var(--footer-secondary-logo-color);
@@ -179,6 +215,14 @@ header .company-logo .secondary-color {
   color: var(--accent-color);
 }
 /* ---------------- PORTFOLIO PAGE---------------- */
+.filter-list {
+  margin-bottom: 34px;
+}
+.portfolio-item {
+  max-width: 370px;
+  border: 1px solid #eeeeee;
+  border-top-style: none;
+}
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
@@ -213,4 +257,7 @@ header .company-logo .secondary-color {
 }
 .portfolio-item .link:visited {
   color: var(--main-text-color);
+}
+.portfolio-container {
+  padding: 20px 24px;
 }
